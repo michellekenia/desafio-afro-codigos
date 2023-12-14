@@ -1,5 +1,7 @@
+
 function diferencaParesImpares(matriz) {
   
+    
     let somaPares = 0;
     let somaImpares = 0;
   
@@ -17,14 +19,30 @@ function diferencaParesImpares(matriz) {
       }
     }
   
-    return somaPares - somaImpares;
+    // return somaPares - somaImpares;
+
+    return {
+    
+    pares: somaPares,
+        
+    impares: somaImpares,
+
+    diferenca: somaPares - somaImpares
+
+      };
+    
   }
   
   const matriz = [
     [2, 4, 9],
     [3, 5, 7],
     [10, 11, 8]];
-  
+
+    
   const result = diferencaParesImpares(matriz);
   
+  console.log(matriz);
   console.log(result);
+  
+
+  
