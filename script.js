@@ -19,13 +19,11 @@ function diferencaParesImpares(matriz) {
       }
     }
   
-    // return somaPares - somaImpares;
-
     return {
     
-    pares: somaPares,
+    somaPares: somaPares,
         
-    impares: somaImpares,
+    somaImpares: somaImpares,
 
     diferenca: somaPares - somaImpares
 
@@ -38,7 +36,6 @@ function diferencaParesImpares(matriz) {
     [3, 5, 7],
     [10, 11, 8]];
 
-    
   const result = diferencaParesImpares(matriz);
   
   console.log(matriz);
