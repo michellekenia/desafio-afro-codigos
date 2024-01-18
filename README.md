@@ -9,3 +9,5 @@ some os números pares e ímpares separadamente e retorne a diferença entre a s
  2. Abrir em sua IDE de preferência;
  3. Rodar o programa e ver o resultado no terminal ou usar o console do navegador para ver o funcionamento;
  6. Troque os números da matriz para gerar diferentes resultados. 
+
+Teste 
